@@ -1,6 +1,6 @@
-/* body{
-    background-color: antiquewhite;
-} */
+body{
+    background-color:black;
+}
 
 /* css reset */
 *{
@@ -17,37 +17,30 @@ html{
 :root{
     --navbar-height: 60px;
 }
-.nav{
-    background-color: black;
 
-    height: 100%;
+#navbar{
     display: flex;
-
-    /* text-align: right; */
+    /* align-items: center; */
     justify-content: space-between;
-    z-index: -1;
-    opacity: 0.85;
-
-
-
+    position: sticky;
+    top: 0px;
+    font-family: 'Varela Round', sans-serif;
+    
 }
-.nav img{
+    /* logo and image */
+
+#logo img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-left: 50px;
     z-index: 2;
     opacity: 1;
-
-
-
-
 }
-#navbar{
-
-    display: flex;position: sticky;top: 0px;font-family: 'Varela Round', sans-serif;justify-content: flex-end;align-items: right;   
-
-    
+/* list styling */
+#navbar ul{
+    display: inline-block;
+    list-style: none;
 }
 #navbar::before{
     content: "";
@@ -60,23 +53,16 @@ html{
     z-index: -1;
     opacity: 0.3;
 }
-nav{
-    text-align: right; 
-   
-}
-nav ul{
-    display: inline-block;
+#navbar ul li{
+    
+    /* background-color: gray; */
     list-style: none;
-    /* flex: 4; */
-}
-nav ul li{
+    font-size: 1.3rem;
     display: inline-block;
     margin-right: 20px;
     color: white;
     margin-right: 50px;
     margin-top: 10px;
-
-    /* flex: 1; */
 }
 #navbar ul li a{
     color: whitesmoke;
@@ -94,6 +80,71 @@ nav ul li{
     border-radius: 20px;
     text-decoration: none; /*to remove underline*/
 }
+
+/* #navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+    z-index: 2;
+    opacity: 1;
+
+
+
+
+}
+#navbar{
+
+    display: flex;position: sticky;top: 0px;font-family: 'Varela Round', sans-serif;justify-content: flex-end;align-items: right;   
+    height: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    z-index: -1;
+    opacity: 0.85;
+
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    margin-right: 50px;
+    margin-top: 10px;
+
+
+}
+#navbar ul li a{
+    color: whitesmoke;
+    display: block;
+    padding: 2px 22px;
+    border-radius: 20px;
+    text-decoration: none; 
+    font-size: 18px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+    display: block;
+    padding: 2px 22px;
+    border-radius: 20px;
+    text-decoration: none; 
+}  */
 
 #home{
     display: flex;
@@ -121,6 +172,7 @@ nav ul li{
     padding: 73px;
     font-family: 'Varela Round', sans-serif;    
     overflow: hidden;
+    color: #ffe499;
     border-right:.15em solid orange;
     padding: 15px;
     border-width: 4px;
@@ -163,14 +215,16 @@ nav ul li{
     text-decoration: none;
     color: black;
 }
+
+
 #container{
     width: 100%;
-    height: 1500px;
+    height: 100%;
     background-color: black;
 }
 .box1{
     width: 80%;
-    height: 400px;
+    height: 26%;
     border: 2px solid black;
     /* background-color: antiquewhite; */
     margin: 50px 0 50px 0;
@@ -180,10 +234,10 @@ nav ul li{
 }
 .box2{
     width: 80%;
-    height: 400px;
+    height: 26%;
     border: 2px solid black;
     margin-left: 20%;
-    margin-top: 100px;
+    margin-top: 50px;
     /* background-color: antiquewhite; */
     text-align: center;
     color: white;
@@ -191,27 +245,27 @@ nav ul li{
 }
 .box3{
     width: 80%;
-    height: 400px;
+    height: 26%;
     border: 2px solid black;
-    margin: 100px 0 50px 0;
+    margin: 50px 0 50px 0;
     /* background-color: antiquewhite; */
     text-align: center;
     color: white;
     
 }
-#slider{
+#slider1{
    
    
     background-color: rgba(0, 0, 0, 0.85);
-    height: 100%;
+    /* height: 100%; */
     /* overflow: hidden; */
   
     
 }
-#sliderBox{
+#sliderBox1{
     overflow: hidden;
     width: 70%;
-    height: 90%;
+    /* height: 90%; */
     box-shadow: 1px 2px 10px 5px white;
     position: relative;
     left: 50%;
@@ -220,14 +274,84 @@ nav ul li{
   
 }
 
-#sliderBox figure{
+#sliderBox1 figure{
     position: relative;
     width: 500%;   
     margin: 0;
     left: 0;
-    animation: 20s sliderBox infinite linear;
+    animation: 20s sliderBox1 infinite linear;
 }
-#sliderBox figure img{
+#sliderBox1 figure img{
+    width: 20%;
+   
+    float: left;
+
+    
+}
+#slider2{
+   
+   
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 100%;
+    /* overflow: hidden; */
+  
+    
+}
+#sliderBox2{
+    overflow: hidden;
+    width: 70%;
+    /* height: 90%; */
+    box-shadow: 1px 2px 10px 5px white;
+    position: relative;
+    left: 50%;
+    /* top: 50%;   */
+    transform: translate(-50%,5%);
+  
+}
+
+#sliderBox2 figure{
+    position: relative;
+    width: 500%;   
+    margin: 0;
+    left: 0;
+    animation: 10s sliderBox2 infinite linear;
+}
+#sliderBox2 figure img{
+    width: 20%;
+   
+    float: left;
+
+    
+}
+#slider3{
+   
+   
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 100%;
+    /* overflow: hidden; */
+  
+    
+}
+#sliderBox3{
+    overflow: hidden;
+    width: 70%;
+    height: 75%;
+    box-shadow: 1px 2px 10px 5px white;
+    position: relative;
+    left: 50%;
+    /* top: 50%;   */
+    transform: translate(-50%,5%);
+  
+}
+
+#sliderBox3 figure{
+    position: relative;
+    width: 500%;   
+    margin: 0;
+    left: 0;
+    animation: 20s sliderBox3 infinite linear;
+}
+#sliderBox3 figure img{
     width: 20%;
    
     float: left;
@@ -235,7 +359,7 @@ nav ul li{
     
 }
 
-@keyframes sliderBox {
+@keyframes sliderBox1 {
     0%{
         left: 0;
     }
@@ -254,7 +378,7 @@ nav ul li{
     70%{
         left: -200%;
     }
-    75%{
+    /* 75%{
         left:-300%
 
     }
@@ -262,7 +386,183 @@ nav ul li{
         left: -300;
     }
     100%{
-        left: -400;
-    }
+        left: -300;
+    } */
 
 } 
+@keyframes sliderBox2 {
+    0%{
+        left: 0;
+    }
+
+    45%{
+        left: 0;
+    }
+    50%{
+        left: -100%;
+    }
+    80%{
+        left: -100%;
+    }
+    /* 75%{
+        left:-300%
+
+    }
+    90%{
+        left: -300;
+    }
+    100%{
+        left: -300;
+    } */
+
+} 
+
+
+@media only screen and (max-width:900px ){
+    .Heading{
+        font-size: 2.5rem;
+        font-weight: bold;
+        word-wrap: break-word;
+        color: #ffe499;
+    
+    }
+    .description{
+        font-size: 1rem;
+
+    }
+    #container h1{
+        font-size: 2.0rem;
+
+    }
+
+}
+@media only screen and (max-width:640px ){
+    #sliderBox1,#sliderBox2, #sliderBox3{
+        width: 90%;
+
+    }
+    .box2{
+        width: 100%;
+        margin-left: 0;
+        margin: 50px 0 0 0;    
+    }
+    .box1{
+        width: 100%;
+
+        margin: 50px 0 0 0;    
+    }
+    .box3{
+        width: 100%;
+
+        margin: 50px 0 0 0;    
+    }
+    .Heading{
+        font-size:  2.0rem;
+        font-weight: bold;
+        word-wrap: break-word;
+        color: #ffe499;
+    
+    }
+    #container h1{
+        font-size: 2.0rem;
+
+    }
+
+
+}
+@media only screen and (max-width:450px ){
+    .Heading{
+        font-size:  1.2rem;        font-weight: bold;
+        word-wrap: break-word;
+        color: #ffe499;
+
+    
+    }
+    #container h1{
+        font-size: 1.2rem;
+
+    }
+    #navbar{
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+    #logo img{
+
+        margin-left: 0;
+
+    }
+    #navbar ul li{
+        font-size: 1.5rem;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+.Cont-container{
+
+    text-align: center;
+
+}
+.contact{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+/* .icon{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0px 12px;
+    /* border-radius: 50px; */
+    /* transition: all 0.8s; */
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    /* justify-content: center; */ 
+
+   
+/* }
+.icon:hover{
+    cursor: pointer;
+    background: #e60073;
+    box-shadow: 0 0 20px #e60073;
+}
+.icon:hover:nth-child(2){
+    background: #1877f2;
+    box-shadow: 0 0 20px #1877f2;
+}
+svg image{
+    position: absolute;
+    transform: translate(-50,-90);
+}
+img{
+    width: 40px;
+}
+
+.icon i{
+   
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 19%;
+    transform: translate(-50, -50);
+}
+
+
+svg circle{
+    stroke-dasharray: 100;
+    transition: all .8s;
+}
+.icon:hover svg circle{
+    stroke-dasharray: 160;
+} */
