@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contt</title>
-    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/contact.css">
 </head>
 <body>
-    <div class="Cont-container">
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../static/me.jpg" alt="">
+
+        </div>
+
+    
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+ 
+        </ul>
+    </nav>
+    <div id="Cont-container">
 
         <h1>
 
@@ -17,22 +31,51 @@
         <div class="contact">
 
             <div class="icon">
-                <i class="instagram"> 
+                <i class="social"> 
                     <a href="https://www.linkedin.com/in/snadeem97/" target="blank">
-                        <img src="../static/instagram.png" alt="">
+                        <img src="../static/linkedin.png" alt="">
                     </a>
+                    <a href="https://github.com/snad0" target="blank"><img src="../static/git.png" alt=""></a>
                 </i>
             </div>
             <div class="icon">
-                <i class="">
-                    <a href="https://github.com/snad0" target="blank"><img src="../static/twitter.png" alt="">
+
+                    <i class="email"> 
+                        <a href="" target="blank">
+                            <img src="../static/Gmail.svg" alt="">
+
+        
+                        </a>
+                    <a class="mail" href="">
+                            Nadeemsaifi497@gmail.com
+
                     </a>
-                        
-                    
-                </i>
+
+    
+                    </i>
             </div>
+            
+            <form action="/contact"></form>
+            <!-- form(action="/contact", method="post") 
+            input(type="name", class="myInput",   id="name"    name="Name",    placeholder="Enter Your Name")
+            input(type="phone", class="myInput",   id="phone"    name="phone", placeholder="Enter Your Number")
+            input(type="address", class="myInput",   id="address"   name="address", placeholder="Enter Your address")
+            input(type="name", class="myInput"   ,id="gender"   name="gender", placeholder="Enter Your Gender")
+            input(type="email", class="myInput"   ,id="email"   name="email", placeholder="Enter Your email")
+            input(type="number", class="myInput",   id="Age"   name="Age", placeholder="Enter Your Age")
+            button(class="btn")
+                | Submit -->
+
         </div>
     </div>
+    <footer>
+        <div class="center">
+           <p>
+
+               contact for any information
+           </p> 
+        </div>
+    </footer>
 
     
 </body>
