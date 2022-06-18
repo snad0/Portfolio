@@ -197,6 +197,7 @@ nav ul li{
 
 .description{
     font-size: 1.5rem;
+    letter-spacing: .15em;
     word-wrap: break-word;
     padding: 20px;
     text-align: center;
@@ -228,12 +229,19 @@ nav ul li{
     height: 100%;
     background-color: black;
 }
+#container h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+
+}
 .box1{
     width: 80%;
     height: 26%;
     border: 2px solid black;
     /* background-color: antiquewhite; */
-    margin: 50px 0 50px 0;
+    margin: 10px 0 10px 0;
     text-align: center;
     color: white;
 
@@ -253,7 +261,7 @@ nav ul li{
     width: 80%;
     height: 26%;
     border: 2px solid black;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 10px 0;
     /* background-color: antiquewhite; */
     text-align: center;
     color: white;
@@ -355,7 +363,7 @@ nav ul li{
     width: 500%;   
     margin: 0;
     left: 0;
-    animation: 20s sliderBox3 infinite linear;
+    animation: 10s sliderBox3 infinite linear;
 }
 #sliderBox3 figure img{
     width: 20%;
@@ -481,7 +489,7 @@ nav ul li{
     .box1{
         width: 100%;
 
-        margin: 50px 0 0 0;    
+        margin: 10px 0 0 0;    
     }
     .box3{
         width: 100%;
@@ -499,6 +507,24 @@ nav ul li{
         font-size: 2.0rem;
 
     }
+    #navbar{
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+    #logo img{
+
+        margin-left: 0;
+
+
+    }
+    #navbar ul li{
+        font-size: 1.5rem;
+        margin-right: 0;
+    }
+
 
 
 }
@@ -538,6 +564,7 @@ nav ul li{
 
 footer{
     background-color: rgb(69 113 179 / 83%);
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
