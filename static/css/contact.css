@@ -101,8 +101,12 @@ footer{
 #Cont-container{
 
     text-align: center;
-    /* background-color: blanchedalmond; */
+    background-color: blanchedalmond;
+    /* display: flex; */
 
+}
+.part{
+    display: flex;
 }
 #Cont-container h1{
     margin: 50px 0 50px 0;
@@ -112,6 +116,7 @@ footer{
 }
 .contact{
     display: flex;
+    width: 50%;
     margin-top: 25px;
     align-items: center;
     flex-direction: column;
