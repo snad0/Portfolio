@@ -693,6 +693,10 @@ footer{
         font-size: 1rem;
         margin-right: 0;
     }
+    #navbar ul li a{
+        padding-bottom: 10px;
+
+    }
     #Sikll-Section{
         width: 90%;
         margin-left: 5%;   
@@ -706,6 +710,9 @@ footer{
     }
     #part{
         flex-direction: column;
+    }
+    .social a {
+        margin: 25px;
     }
        
 
