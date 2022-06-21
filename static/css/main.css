@@ -81,70 +81,7 @@ html{
     text-decoration: none; /*to remove underline*/
 }
 
-/* #navbar img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 50px;
-    z-index: 2;
-    opacity: 1;
 
-
-
-
-}
-#navbar{
-
-    display: flex;position: sticky;top: 0px;font-family: 'Varela Round', sans-serif;justify-content: flex-end;align-items: right;   
-    height: 100%;
-    display: flex;
-
-    justify-content: space-between;
-    z-index: -1;
-    opacity: 0.85;
-
-    
-}
-#navbar::before{
-    content: "";
-    background-color: black;
-    top: 0px;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.3;
-}
-nav ul{
-    display: inline-block;
-    list-style: none;
-
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
-    color: white;
-    margin-right: 50px;
-    margin-top: 10px;
-
-
-}
-#navbar ul li a{
-    color: whitesmoke;
-    display: block;
-    padding: 2px 22px;
-    border-radius: 20px;
-    text-decoration: none; 
-    font-size: 18px;
-}
-#navbar ul li a:hover{
-    color: black;
-    background-color: whitesmoke;
-    display: block;
-    padding: 2px 22px;
-    border-radius: 20px;
-    text-decoration: none; 
-}  */
 #fullimg img{
     width: 150px;
     height: 150px;
@@ -174,7 +111,7 @@ nav ul li{
 }
 .Heading{
     font-size: 3.2rem;
-    padding: 73px;
+
     font-family: 'Varela Round', sans-serif;    
     overflow: hidden;
     color: #ffe499;
@@ -207,6 +144,22 @@ nav ul li{
         /* color: #ffe499;
     font-weight: bold; */
     /* animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite; */
+}
+.download {
+    width: 100px;
+
+}
+h2{
+    color: whitesmoke;
+
+}
+.download a img{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+
 }
 .quote{
     font-size: 1.4rem;
@@ -701,6 +654,14 @@ footer{
         width: 90%;
         margin-left: 5%;   
     }
+    .Heading{
+
+
+        border-width: 2.5px;
+        padding: 5px;
+ 
+    
+    }
     .skills__name{
         font-size: 1rem;
         padding: 2px 12px;
@@ -713,6 +674,19 @@ footer{
     }
     .social a {
         margin: 25px;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    .download {
+        width: 70px;
+    
+    }
+    .download a img{
+        width: 70px;
+        height: 70px;
+
+    
     }
        
 
