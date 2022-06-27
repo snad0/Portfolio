@@ -350,7 +350,7 @@ h2{
     width: 500%;   
     margin: 0;
     left: 0;
-    animation: 20s sliderBox3 infinite linear;
+    animation: 35s sliderBox3 infinite linear;
 }
 #sliderBox3 figure img{
     width: 20%;
@@ -421,35 +421,57 @@ h2{
     0%{
         left: 0;
     }
-    8%{
+    5%{
         left: 0;
     }
-    16%{
+    10%{
         left: -100%;
     }
-    24%{
+    20%{
         left: -100%;
     }
-    32%{
+    25%{
+        left: -200%;
+    }
+    35%{
         left: -200%;
     }
     40%{
-        left: -200%;
-    }
-    48%{
         left:-300%
 
     }
-    56%{
+    50%{
         left: -300%;
     }
     
-    64%{
+    55%{
         left: -400%;
     }
-    72%{
+    60%{
         left: -400%;
     }
+    70%{
+        left: -300%;
+    }
+    75%{
+        left: -300%;
+    }
+    80%{
+        left: -200%;
+    }
+    85%{
+        left: -200%;
+    }
+    90%{
+        left: -100%;
+    }
+    95%{
+        left: -100%;
+    }
+    100%{
+        left: -0%;
+    }
+
 
 } 
 
