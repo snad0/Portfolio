@@ -347,13 +347,13 @@ h2{
 
 #sliderBox3 figure{
     position: relative;
-    width: 600%;   
+    width: 700%;   
     margin: 0;
     left: 0;
-    animation: 35s sliderBox3 infinite linear;
+    animation: 60s sliderBox3 infinite linear;
 }
 #sliderBox3 figure img{
-    width: 16.666%;
+    width: 14.28%;
    
     float: left;
 
@@ -421,56 +421,83 @@ h2{
     0%{
         left: 0;
     }
-    10%{
+    4%{
         left: 0;
     }
-    15%{
+    8%{
         left: -100%;
     }
-    25%{
+    12%{
         left: -100%;
     }
-    30%{
+    16%{
         left: -200%;
     }
-    40%{
+    20%{
         left: -200%;
     }
-    45%{
-        left:-300%
+    24%{
+        left:-300%;
 
     }
-    55%{
+    28%{
         left: -300%;
     }
     
+    32%{
+        left: -400%;
+    }
+    36%{
+        left: -400%;
+    }
+    40%{
+        left: -500%;
+    }
+    44%{
+        left: -500%;
+    }
+    48%{
+        left: -600%;
+    }
+    52%{
+        left: -600%;
+    }
+    56%{
+        left: -500%;
+    }
     60%{
-        left: -400%;
-    }
-    70%{
-        left: -400%;
-    }
-    75%{
         left: -500%;
     }
-    85%{
-        left: -500%;
-    }
-    /* 85%{
-        left: -400%;
-    } */
-    /* 90%{
+    64%{
         left: -400%;
     }
-    90%{
+    68%{
+        left: -400%;
+    }
+    72%{
         left: -300%;
     }
-    95%{
+    76%{
         left: -300%;
-    } */
-    /* 100%{
-        left: -0%;
-    } */
+    }
+    80%{
+        left: -200%;
+    }
+    84%{
+        left: -200%;
+    }
+    88%{
+        left: -100%;
+    }
+    92%{
+        left: -100%;
+    }
+    94%{
+        left: 0%;
+    } 
+    100%{
+        left: 0%;
+    }
 
 
 } 
