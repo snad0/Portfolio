@@ -360,6 +360,63 @@ h2{
     
 }
 
+
+/* gallery */
+#certificatehed h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 100px 0 25px 0;
+    /* background-color: white; */
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#gallery{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    background-color: black;
+    margin-top: 10px;
+    /* margin-bottom: 400px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: left; */
+    width: 180px;
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(2);
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1.2rem;
+}
+div.org {
+    padding: 5px;
+    /* text-align: end; */
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1.4rem;
+}
+
 @keyframes sliderBox1 {
     0%{
         left: 0;
@@ -727,6 +784,16 @@ footer{
    
     
     }
+    div.desc {
+        font-size: .8rem;
+
+    }
+    div.org {
+        font-size: .9rem;
+ 
+    
+    }
+
     #part{
         flex-direction: column;
     }
@@ -735,6 +802,9 @@ footer{
     }
     h2{
         font-size: 1.2rem;
+    }
+    div.gallery {
+        width: 100px;
     }
     .download {
         width: 70px;
