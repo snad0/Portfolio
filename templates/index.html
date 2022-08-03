@@ -98,24 +98,63 @@
         </div>
         <div class="box3">
             <h1>Artificial Intelligence work</h1>
-            <div id="slider3">
-                <div id="sliderBox3">
-                    <figure>
-                        
-                        <a href="https://github.com/snad0/Movie-Recomendation-System"> <img src="../static/03.png" alt="">  </a>
-                        <a href="https://github.com/snad0/Social-Distancing-and-mask-detection"> <img src="../static/007.png" alt="">  </a>
-                        <a href="http://shmpl.co.in/"> <img src="../static/02.png" alt="">  </a>
-                        <a href="https://nad-car-becho.herokuapp.com/"> <img src="../static/car.png" alt="">  </a>
-                        <a href="https://github.com/snad0/Comment-toxicity-Detection"> <img src="../static/comment-toxicity.png" alt="">  </a>
-                        <a href="https://github.com/snad0/Potato-disease-detection"> <img src="../static/potato.png" alt="">  </a>
-                        <a href="https://github.com/snad0/sign-detection"> <img src="../static/01.png" alt="">  </a>
+            <div class="slider3">
 
-                    </figure>
-                    
-            
-                </div>
-        
+                <div class="slider" >
+                    <div class="slides" id="a">
+                     <!--radio buttons start-->
+                       <input type="radio" name="radio-btn" id="radio1">
+                       <input type="radio" name="radio-btn" id="radio2">
+                       <input type="radio" name="radio-btn" id="radio3">
+                       <input type="radio" name="radio-btn" id="radio4">
+                       <input type="radio" name="radio-btn" id="radio5">
+                       <input type="radio" name="radio-btn" id="radio6">
+                       <input type="radio" name="radio-btn" id="radio7">
+    
+                     <!--radio buttons end-->
+                  
+                     <!--slide images start-->
+                     <div class="slide first">
+                         <a href="https://github.com/snad0/Social-Distancing-and-mask-detection"> <img src="../static/007.png" alt="">  </a>
+                     </div>
+                     <div class="slide">
+                         <a href="http://shmpl.co.in/"> <img src="../static/02.png" alt="">  </a>
+                        </div>
+                        <div class="slide">
+                            <a href="https://nad-car-becho.herokuapp.com/"> <img src="../static/car.png" alt="">  </a>
+                        </div>
+                        <div class="slide">
+                            <a href="https://github.com/snad0/Movie-Recomendation-System"> <img src="../static/03.png" alt="">  </a>
+                        </div>
+                        <div class="slide">
+                            <a href="https://github.com/snad0/Comment-toxicity-Detection"> <img src="../static/comment-toxicity.png" alt="">  </a>
+                        </div>
+                        <div class="slide">
+                            <a href="https://github.com/snad0/Potato-disease-detection"> <img src="../static/potato.png" alt="">  </a>
+                        </div>
+                        <div class="slide">
+                            <a href="https://github.com/snad0/sign-detection"> <img src="../static/01.png" alt="">  </a>
+                        </div>
+                     <!--slide images end-->
+                  
+                    </div>
+                  
+                   <!--manual navigation start-->
+                    <div class="navigation-manual" id="b">
+                      <label for="radio1" class="manual-btn"></label>
+                      <label for="radio2" class="manual-btn"></label>
+                      <label for="radio3" class="manual-btn"></label>
+                      <label for="radio4" class="manual-btn"></label>
+                      <label for="radio5" class="manual-btn"></label>
+                      <label for="radio6" class="manual-btn"></label>
+                      <label for="radio7" class="manual-btn"></label>
+                    </div>
+                   <!--manual navigation end-->
+                </div> 
+                <!--image slider end-->
             </div>
+              
+
 
         </div>
         <div class="box2">
@@ -308,6 +347,18 @@
            </p> 
         </div>
     </footer>
+
+<script>
+    var counter = 1;
+    setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+        if(counter > 7){
+            setTimeout('',1000)
+        counter = 1;
+        }
+    }, 5000);
+</script>
     
 </body>
-</html>
+</html> 
